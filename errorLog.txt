@@ -1,0 +1,107 @@
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 05:50:03  2.0.0.4
+java.lang.Exception: Format error
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.openFile(DOCXReader.java:137)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.getModel(DOCXReader.java:113)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 05:50:15  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:23:43  2.0.0.4
+java.lang.Exception: Format error
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.openFile(DOCXReader.java:137)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.getModel(DOCXReader.java:113)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:24:20  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:24:23  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:24:28  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:24:31  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 14:25:20  2.0.0.4
+all.documents.reader.and.documents.viewer.office.fc.EncryptedDocumentException: Invalid header signature
+	at all.documents.reader.and.documents.viewer.office.fc.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:100)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.openFile(DOCXReader.java:122)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.getModel(DOCXReader.java:113)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-14 15:05:45  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-24 02:22:39  2.0.0.4
+java.lang.Exception: Format error
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.openFile(DOCXReader.java:137)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.getModel(DOCXReader.java:113)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-24 02:22:53  2.0.0.4
+java.lang.IllegalArgumentException: The document is really a RTF file
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.verifyAndBuildPOIFS(HWPFDocumentCore.java:83)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocumentCore.<init>(HWPFDocumentCore.java:107)
+	at all.documents.reader.and.documents.viewer.office.fc.hwpf.HWPFDocument.<init>(HWPFDocument.java:161)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.processDoc(DOCReader.java:132)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCReader.getModel(DOCReader.java:126)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
+
+--------------------------------------------------------------------------
+Exception occurs: 2020-06-24 02:22:56  2.0.0.4
+all.documents.reader.and.documents.viewer.office.fc.EncryptedDocumentException: Invalid header signature
+	at all.documents.reader.and.documents.viewer.office.fc.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:100)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.openFile(DOCXReader.java:122)
+	at all.documents.reader.and.documents.viewer.office.fc.doc.DOCXReader.getModel(DOCXReader.java:113)
+	at all.documents.reader.and.documents.viewer.office.system.FileReaderThread.run(FileReaderThread.java:137)
